@@ -2,10 +2,12 @@
   "name": "availability-checker",
   "version": "0.0.1",
   "scripts": {
-    "start": "node --harmony-async-await index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "request": "^2.79.0",
-    "request-promise": "^4.1.1"
+    "bestbuy": "^2.4.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "twilio": "^3.50.0"
   }
 }
